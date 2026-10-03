@@ -4,7 +4,7 @@
 
 This project analyzes social media activity to understand customer sentiment, engagement, platform performance, geographic activity, and time-based engagement patterns.
 
-The analysis was developed as part of my **Codveda Technologies Business Analytics Internship** using Power BI, Power Query, and DAX.
+The analysis was developed as part of my **Codveda Technologies Business Analytics Internship Capstone Project** using Power BI, Power Query, and DAX.
 
 ---
 
@@ -177,15 +177,6 @@ The findings can support more targeted content planning, stronger engagement str
 
 ---
 
-## 👩🏽‍💻 Project Type
-
-**Business Analytics | Social Media Analytics | Sentiment Analysis | Customer Engagement**
-
-### Developed with
-
-**Power BI | Power Query | DAX**
-
----
 ## 👩🏽‍💻 Project Type
 
 **Business Analytics | Social Media Analytics | Sentiment Analysis | Customer Engagement**
