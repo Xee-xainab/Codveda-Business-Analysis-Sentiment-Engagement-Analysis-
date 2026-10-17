@@ -127,7 +127,7 @@ This shows that the most frequently occurring sentiment does not necessarily gen
 
 ### Platform Performance
 
-Instagram recorded the highest activity with **258 posts** and **11,633 likes**.
+Instagram recorded the highest activity with **258 posts** and **11,633 likes**,making it the strongest channel
 
 It also had the highest average likes per post at approximately **45.1**, with Joy identified as its leading engaging sentiment.
 
@@ -135,13 +135,13 @@ It also had the highest average likes per post at approximately **45.1**, with J
 
 The USA recorded the highest activity with **188 posts** and **8,358 likes**.
 
-Positive led by post volume, while Neutral generated higher likes per post within the USA, showing that activity volume and engagement intensity can differ by sentiment.
+Positive led by post volume, while Neutral generated higher likes per post within the USA, though from a small sample.
 
-### Time & Activity
+### Time & Activity 
 
-February recorded **85 posts** and **3,505 likes**.
+2 PM was the busiest hour (94 posts, 3,909 likes) and February the busiest month (85 posts, 3,505 likes). Both sit slightly below the average of 42.9 likes per post, so peak activity is not peak engagement.
 
-The **2 PM** period recorded the highest hourly activity with **94 posts** and **3,909 likes**. Joy was the leading sentiment during this period.
+Joy was the leading sentiment during this period.
 
 ---
 
@@ -174,6 +174,13 @@ The effectiveness of future social media strategies can be monitored using:
 The analysis provides a clearer understanding of how sentiment, platform, geography, and timing relate to social media engagement.
 
 The findings can support more targeted content planning, stronger engagement strategies, and closer monitoring of customer sentiment across markets and platforms.
+
+---
+
+## Repository Contents
+- `Social_Media_Sentiment_Dashboard.pbix`: Power BI dashboard
+- `Social_Media_Sentiment_Engagement_Report.pdf`: full report
+- `screenshots/`: dashboard page images
 
 ---
 
