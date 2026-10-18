@@ -1,193 +1,78 @@
 # Social Media Sentiment & Customer Engagement Analysis
 
-## 📌 Project Overview
-
-This project analyzes social media activity to understand customer sentiment, engagement, platform performance, geographic activity, and time-based engagement patterns.
-
-The analysis was developed as part of my **Codveda Technologies Business Analytics Internship Capstone Project** using Power BI, Power Query, and DAX.
-
----
-
-## 🎯 Business Problem
-
-A company operating across multiple social media platforms and markets receives a large volume of customer conversations but lacks a clear understanding of:
-
-- How customers feel about the brand
-- Which sentiments generate stronger engagement
-- Which platforms have the highest activity and engagement
-- Which countries generate the most social media activity
-- When social media activity is highest
-
-Without this information, it is difficult to identify reputation risks, understand customer reactions, and plan more targeted social media strategies.
-
----
-
-## 🎯 Project Objective
-
-The objective of this analysis was to identify patterns in **sentiment, engagement, platform activity, geography, and time** that can support better social media decision-making.
-
-### Key Business Questions
-
-1. What sentiments are most common?
-2. Which platforms generate the most activity?
-3. Which sentiments receive the strongest engagement?
-4. Which countries generate the most social media activity?
-5. How does activity vary over time?
-6. Which periods generate the highest activity and engagement?
-
----
-
-## 📊 Dataset
-
-The dataset contains **732 social media records** with information including:
-
-- Sentiment
-- Timestamp
-- Platform
-- Country
-- Likes
-- Retweets
-- Hashtag
-- User
-- Year
-- Month
-- Day
-- Hour
-
----
-
-## 🛠️ Tools & Technologies
-
-- **Power BI** – Dashboard development and data visualization
-- **Power Query** – Data cleaning and transformation
-- **DAX** – Measures and analytical calculations
-
----
-
-## 🔄 Analytical Process
-
-The project followed a structured data analytics workflow:
-
-**Business Problem → Data Cleaning → Transformation → Exploratory Analysis → Dashboard → Deeper Analysis → Insights → Recommendations**
-
-### Data Preparation
-
-The dataset was prepared using Power Query by:
-
-- Promoting headers
-- Correcting data types
-- Trimming text fields
-- Removing duplicate records
-- Splitting columns where required
-- Creating month names
-- Organizing time-related fields for analysis
-
----
-
-## 📈 Dashboard
-
-The Power BI report contains two analytical pages and a dedicated insights page.
-
-### 1. Social Media Sentiment & Engagement Overview
-
-This page provides an overview of:
-
-- Total posts
-- Average likes
-- Average retweets
-- Top engaging sentiment
-- Sentiment distribution
-- Platform activity
-- Activity over time
-
-### 2. Sentiment, Geography & Time Analysis
-
-This page explores:
-
-- Total countries
-- Top engaging country
-- Peak activity hour
-- Country-level activity
-- Sentiment distribution across leading countries
-- Hourly activity patterns
-
-### 3. Insights & Recommendations
-
-The final page summarizes the key findings and translates them into business actions and measurable success indicators.
-
----
-
-## 🔎 Key Insights
-
-### Sentiment & Engagement
-
-Positive was the most frequent sentiment with **45 posts**, while Joy generated stronger engagement at approximately **49.3 likes per post**, compared with **37.8 likes per post** for Positive.
-
-This shows that the most frequently occurring sentiment does not necessarily generate the strongest engagement.
-
-### Platform Performance
-
-Instagram recorded the highest activity with **258 posts** and **11,633 likes**,making it the strongest channel
-
-It also had the highest average likes per post at approximately **45.1**, with Joy identified as its leading engaging sentiment.
-
-### Geographic Activity
-
-The USA recorded the highest activity with **188 posts** and **8,358 likes**.
-
-Positive led by post volume, while Neutral generated higher likes per post within the USA, though from a small sample.
-
-### Time & Activity 
-
-2 PM was the busiest hour (94 posts, 3,909 likes) and February the busiest month (85 posts, 3,505 likes). Both sit slightly below the average of 42.9 likes per post, so peak activity is not peak engagement.
-
-Joy was the leading sentiment during this period.
-
----
-
-## 💡 Recommendations
-
-Based on the analysis:
-
-- Prioritize Instagram for high-impact content.
-- Build on engaging sentiments, particularly Joy.
-- Monitor sentiment patterns in high-activity markets such as the USA.
-- Schedule key content around identified peak activity periods such as 2 PM.
-- Track likes and retweets per post to measure engagement quality over time.
-
----
-
-## 📏 Success Measures
-
-The effectiveness of future social media strategies can be monitored using:
-
-- **Likes per post** – engagement quality
-- **Retweets per post** – content sharing
-- **Sentiment engagement** – response to different sentiment categories
-- **Platform engagement** – performance across social platforms
-- **Peak-period engagement** – response during high-activity periods
-
----
-
-## 📌 Conclusion
-
-The analysis provides a clearer understanding of how sentiment, platform, geography, and timing relate to social media engagement.
-
-The findings can support more targeted content planning, stronger engagement strategies, and closer monitoring of customer sentiment across markets and platforms.
-
----
+> Which sentiment, platform, market and posting time drive engagement, and where is activity just high volume?
+
+## Project Overview
+This project analyzes 732 social media posts to understand customer sentiment, engagement, platform performance, geographic activity and time-based patterns. It was completed during my Business Analytics Internship at Codveda Technologies using Power BI, Power Query and DAX.
+
+## Business Problem
+The company receives a high volume of social media activity across platforms and markets but lacks a clear view of customer sentiment and engagement. Without it, it is hard to identify high-performing platforms, understand customer reactions, monitor sentiment risks, or tell when and where engagement is strongest.
+
+## Objectives
+- Analyze customer sentiment and its link to likes and retweets
+- Compare platform performance
+- Examine geographic activity
+- Identify monthly, hourly and yearly activity patterns
+- Turn findings into practical recommendations
+
+## Dataset
+- **Records:** 732 social media posts
+- **Coverage:** 3 platforms (Instagram, Twitter, Facebook) and 33 countries
+- **Fields:** Sentiment, Platform, Country, Likes, Retweets, Timestamp, Hashtag, Year, Month, Day, Hour
+
+## Tools Used
+| Tool | Purpose |
+|------|---------|
+| Power Query | Data cleaning and transformation |
+| DAX | Analytical measures (likes and retweets per post) |
+| Power BI | Dashboard and visualization |
+
+## Analytical Approach
+Business Problem → Data Cleaning → Transformation → Analysis → Dashboard → Deeper Analysis → Insights → Recommendations
+
+The analysis compares **volume** (total posts and likes) with **engagement intensity** (average likes per post). Totals show where activity happens; averages show where content performs.
+
+## Dashboard Pages
+1. **Cover:** project title and headline numbers
+2. **Overview:** KPIs, sentiment distribution, posts by platform, activity over time (year drill-down)
+3. **Analysis:** posts by country, country and sentiment, activity by hour
+4. **Insight:** findings, recommended actions and success measures
+
+## Key Insights
+- **Sentiment:** Positive had the most posts (45), but Joy earned more per post (49.3 vs 37.8 likes). The gap held in 2023 (46.2 vs 37.8), so the most frequent sentiment is not the most engaging.
+- **Platform:** Instagram led with 258 posts and the highest average of 45.1 likes per post. It stayed above average in 2023 (44.75 vs 42.31).
+- **Geography:** The USA was the most active market (188 posts, 8,358 likes, about 44.5 per post). Positive led by volume, while Neutral earned more per post (small sample).
+- **Timing & growth:** February (85 posts) and 2 PM (94 posts) were the busiest month and hour across all years, yet both average slightly below 42.9 likes per post. Posts surged to 289 in 2023 (39% of the total), but likes per post stayed near 42.
+
+## Recommendations
+- Prioritize Instagram for high-impact content
+- Build on engaging sentiments, especially Joy
+- Monitor sentiment in high-activity markets, particularly the USA
+- Test posting around 2 PM and compare likes per post against other hours
+- Track likes and retweets per post to measure improvement
+
+## Success Measures
+- **Likes per post:** compare engagement quality across platforms, sentiments and years
+- **Retweets per post:** monitor how strongly content is shared
+- **Sentiment engagement:** check whether Joy keeps outperforming
+- **Platform engagement:** compare performance after content changes
+- **Peak-period engagement:** test whether 2 PM beats other hours on likes per post
+
+## Limitations
+- Some sentiment and country-sentiment groups are small, so their averages are indicative only
+- Month and hour results are pooled across years and strongly reflect 2023
+- Findings show patterns, not cause and effect
+- Retweets were tracked but not analyzed in depth
+
+## Conclusion
+Post volume alone does not show performance. Sentiment, platform, geography and timing shape engagement differently, and the 2023 surge in posts did not raise likes per post. These findings support more targeted content planning, stronger engagement strategies and closer sentiment monitoring.
 
 ## Repository Contents
 - `Social_Media_Sentiment_Dashboard.pbix`: Power BI dashboard
 - `Social_Media_Sentiment_Engagement_Report.pdf`: full report
-- `screenshots/`: dashboard page images
+- `screenshots/`: cover and dashboard page images
+- `README.md
 
----
-
-## 👩🏽‍💻 Project Type
-
-**Business Analytics | Social Media Analytics | Sentiment Analysis | Customer Engagement**
-
-### Developed with
-
-**Power BI | Power Query | DAX**
+## Author
+**Zainab Danjuma**
+Business Analytics Intern, Codveda Technologies
