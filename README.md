@@ -71,7 +71,7 @@ Post volume alone does not show performance. Sentiment, platform, geography and 
 - `Social_Media_Sentiment_Dashboard.pbix`: Power BI dashboard
 - `Social_Media_Sentiment_Engagement_Report.pdf`: full report
 - `screenshots/`: cover and dashboard page images
-- `README.md
+- `README.md`
 
 ## Author
 **Zainab Danjuma**
